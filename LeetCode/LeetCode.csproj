@@ -48,7 +48,6 @@
     <Compile Include="LeapYears.cs" />
     <Compile Include="LetterCombination.cs" />
     <Compile Include="LongestPalindromeClass.cs" />
-    <Compile Include="MedianTwoArrays.cs" />
     <Compile Include="MinHeight.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
