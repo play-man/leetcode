@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    internal class LongestPalindromeClass
+    internal static class LongestPalindromeClass
     {
-        public static string LongestPalindrome(string s)
+        internal static string LongestPalindrome(string s)
         {
             if (s.Length == 0) return String.Empty;
             else if (s.Length == 1) return s;
@@ -59,7 +59,7 @@ namespace LeetCode
             }
         }
 
-        public static bool IsPalindrome(string s)
+        private static bool IsPalindrome(string s)
         {
             char[] charArray = s.ToCharArray();
             char[] charArrayToReverse = charArray;

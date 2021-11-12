@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    internal static class MinHeight
+    public static class MinHeight
     {
         public static IList<int> FindMinHeightTrees(int n, int[][] edges)
         {
