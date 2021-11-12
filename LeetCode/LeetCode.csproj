@@ -45,9 +45,11 @@
   <ItemGroup>
     <Compile Include="Atoi.cs" />
     <Compile Include="Divisors.cs" />
+    <Compile Include="FirstLastPosition.cs" />
     <Compile Include="JumpGame.cs" />
     <Compile Include="LeapYears.cs" />
     <Compile Include="LetterCombination.cs" />
+    <Compile Include="LinkedListRemove.cs" />
     <Compile Include="LongestPalindromeClass.cs" />
     <Compile Include="MinHeight.cs" />
     <Compile Include="Program.cs" />

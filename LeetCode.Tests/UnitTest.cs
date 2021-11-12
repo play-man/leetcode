@@ -186,5 +186,15 @@ namespace LeetCode.Tests
             };
             Assert.True(testSolved.Length == expected.Length && (Enumerable.Range(0, testSolved.Length).All(i => Enumerable.SequenceEqual(testSolved[i], expected[i]))));
         }
+
+        [Test]
+        [TestCase(new int[] {1, 2, 3, 4, 5}, 3, new int[] {2, 2})]
+        [TestCase(new int[] { 5, 7, 7, 8, 8, 10 }, 8, new int[] { 3, 4 })]
+        [TestCase(new int[] { 5, 7, 7, 8, 8, 10 }, 6, new int[] { -1, -1 })]
+        [TestCase(new int[] { }, 0, new int[] { -1, -1 })]
+        public void FirstLastPositionCheck(int[] input, int target, int[] expected)
+        {
+            Assert.True(Enumerable.SequenceEqual(FirstLastPosition.SearchRange(input, target), expected));
+        }
     }
 }
