@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Atoi.cs" />
     <Compile Include="Divisors.cs" />
+    <Compile Include="JumpGame.cs" />
     <Compile Include="LeapYears.cs" />
     <Compile Include="LetterCombination.cs" />
     <Compile Include="LongestPalindromeClass.cs" />
@@ -53,7 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StockSeller.cs" />
     <Compile Include="StockSellerIII.cs" />
+    <Compile Include="SudokuSolver.cs" />
     <Compile Include="ThreeSum.cs" />
+    <Compile Include="ValidSudoku.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
