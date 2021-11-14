@@ -196,5 +196,16 @@ namespace LeetCode.Tests
         {
             Assert.True(Enumerable.SequenceEqual(FirstLastPosition.SearchRange(input, target), expected));
         }
+
+        [Test]
+        [TestCase(new int[] { 73, 74, 75, 71, 69, 72, 76, 73 }, new int[] { 1, 1, 4, 2, 1, 1, 0, 0 })]
+        [TestCase(new int[] { 30, 40, 50, 60 }, new int[] { 1, 1, 1, 0 })]
+        [TestCase(new int[] { 30, 60, 90 }, new int[] { 1, 1, 0 })]
+        [TestCase(new int[] { 90, 60, 30 }, new int[] { 0, 0, 0 })]
+        [TestCase(new int[] { }, new int[] { })]
+        public void DailyTemperatureCheck(int[] input, int[] expected)
+        {
+            Assert.True(Enumerable.SequenceEqual(DailyTemperature.DailyTemperatures(input), expected));
+        }
     }
 }
