@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Atoi.cs" />
+    <Compile Include="BSTIterator.cs" />
     <Compile Include="DailyTemperature.cs" />
     <Compile Include="Divisors.cs" />
     <Compile Include="FirstLastPosition.cs" />
@@ -53,7 +54,8 @@
     <Compile Include="LeapYears.cs" />
     <Compile Include="LetterCombination.cs" />
     <Compile Include="LinkedListRemove.cs" />
-    <Compile Include="ListNode.cs" />
+    <Compile Include="SingleElement.cs" />
+    <Compile Include="Tools\ListNode.cs" />
     <Compile Include="LongestPalindromeClass.cs" />
     <Compile Include="MinHeight.cs" />
     <Compile Include="Program.cs" />
@@ -64,6 +66,7 @@
     <Compile Include="SudokuSolver.cs" />
     <Compile Include="SwapNodes.cs" />
     <Compile Include="ThreeSum.cs" />
+    <Compile Include="Tools\TreeNode.cs" />
     <Compile Include="ValidSudoku.cs" />
     <Compile Include="WordSearch.cs" />
   </ItemGroup>
