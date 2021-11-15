@@ -207,5 +207,31 @@ namespace LeetCode.Tests
         {
             Assert.True(Enumerable.SequenceEqual(DailyTemperature.DailyTemperatures(input), expected));
         }
+
+        [Test]
+        [TestCase(new int[] { 4, 3, 2, 1, 4 }, 16)]
+        [TestCase(new int[] { 1, 1 }, 1)]
+        [TestCase(new int[] { 1, 2, 1 }, 2)]
+        [TestCase(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }, 49)]
+        [TestCase(new int[] { 0, 0}, 0)]
+        [TestCase(new int[] { 2, 3, 3, 2 }, 6)]
+        [TestCase(new int[] { 2, 7, 7, 2 }, 7)]
+        [TestCase(new int[] { 2, 1, 12, 12, 1, 2 }, 12)]
+        [TestCase(new int[] { 2, 3, 10, 5, 7, 8, 9 }, 36)]
+        public void WaterContainerCheck(int[] input, int expected)
+        {
+            Assert.AreEqual(WaterContainer.MaxArea(input), expected);
+        }
+
+        [Test]
+        [TestCase(new int[] { 1, 2, 3 }, new int[] { 1, 2})]
+        [TestCase(new int[] { 1, 2, 4, 8 }, new int[] { 1, 2, 4, 8 })]
+        [TestCase(new int[] { 5, 6, 7, 35 }, new int[] { 5, 35 })]
+        [TestCase(new int[] { 2, 3 }, new int[] { 2 })]
+        [TestCase(new int[] { 2, 3, 4, 9, 8 }, new int[] { 2, 4, 8 })]
+        public void LargestDivisibleSubsetCheck(int[] input, int[] expected)
+        {
+            Assert.True(Enumerable.SequenceEqual(LargestDivisibleSub.LargestDivisibleSubset(input), expected));
+        }
     }
 }

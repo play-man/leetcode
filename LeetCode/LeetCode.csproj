@@ -51,6 +51,7 @@
     <Compile Include="IPAddress.cs" />
     <Compile Include="CombinationIterator.cs" />
     <Compile Include="JumpGame.cs" />
+    <Compile Include="LargestDivisibleSub.cs" />
     <Compile Include="LeapYears.cs" />
     <Compile Include="LetterCombination.cs" />
     <Compile Include="LinkedListRemove.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="ThreeSum.cs" />
     <Compile Include="Tools\TreeNode.cs" />
     <Compile Include="ValidSudoku.cs" />
+    <Compile Include="WaterContainer.cs" />
     <Compile Include="WordSearch.cs" />
   </ItemGroup>
   <ItemGroup>
