@@ -233,5 +233,56 @@ namespace LeetCode.Tests
         {
             Assert.True(Enumerable.SequenceEqual(LargestDivisibleSub.LargestDivisibleSubset(input), expected));
         }
+
+        [Test]
+        public void RotateImageCheck()
+        {
+            int[][] input = new int[][]
+            {
+                new int[]{5,3,1},
+                new int[]{6,4,7},
+                new int[]{3,9,8}
+            };
+            int[][] expected = new int[][]
+            {
+                new int[]{3,6,5},
+                new int[]{9,4,3},
+                new int[]{8,7,1}
+            };
+            int[][] inputRotated = RotateImage.Rotate(input);
+            Assert.True(inputRotated.Length == expected.Length && (Enumerable.Range(0, inputRotated.Length).All(i => Enumerable.SequenceEqual(inputRotated[i], expected[i]))));
+        }
+
+        [Test]
+        public void RotateImageCheck2()
+        {
+            int[][] input = new int[][]
+            {
+                new int[]{3}
+            };
+            int[][] expected = new int[][]
+            {
+                new int[]{3}
+            };
+            int[][] inputRotated = RotateImage.Rotate(input);
+            Assert.True(inputRotated.Length == expected.Length && (Enumerable.Range(0, inputRotated.Length).All(i => Enumerable.SequenceEqual(inputRotated[i], expected[i]))));
+        }
+
+        [Test]
+        public void RotateImageCheck3()
+        {
+            int[][] input = new int[][]
+            {
+                new int[]{3, 4},
+                new int[]{5, 6}
+            };
+            int[][] expected = new int[][]
+            {
+                new int[]{5, 3},
+                new int[]{6, 4}
+            };
+            int[][] inputRotated = RotateImage.Rotate(input);
+            Assert.True(inputRotated.Length == expected.Length && (Enumerable.Range(0, inputRotated.Length).All(i => Enumerable.SequenceEqual(inputRotated[i], expected[i]))));
+        }
     }
 }

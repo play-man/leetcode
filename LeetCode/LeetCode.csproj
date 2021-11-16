@@ -51,10 +51,12 @@
     <Compile Include="IPAddress.cs" />
     <Compile Include="CombinationIterator.cs" />
     <Compile Include="JumpGame.cs" />
+    <Compile Include="KSmallestNumber.cs" />
     <Compile Include="LargestDivisibleSub.cs" />
     <Compile Include="LeapYears.cs" />
     <Compile Include="LetterCombination.cs" />
     <Compile Include="LinkedListRemove.cs" />
+    <Compile Include="RotateImage.cs" />
     <Compile Include="SingleElement.cs" />
     <Compile Include="Tools\ListNode.cs" />
     <Compile Include="LongestPalindromeClass.cs" />
