@@ -56,6 +56,7 @@
     <Compile Include="LeapYears.cs" />
     <Compile Include="LetterCombination.cs" />
     <Compile Include="LinkedListRemove.cs" />
+    <Compile Include="MinStart.cs" />
     <Compile Include="RotateImage.cs" />
     <Compile Include="SingleElement.cs" />
     <Compile Include="Tools\ListNode.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="ValidSudoku.cs" />
     <Compile Include="WaterContainer.cs" />
     <Compile Include="WordSearch.cs" />
+    <Compile Include="UniquePath.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
