@@ -47,6 +47,7 @@
     <Compile Include="BSTIterator.cs" />
     <Compile Include="DailyTemperature.cs" />
     <Compile Include="Divisors.cs" />
+    <Compile Include="Anagrams.cs" />
     <Compile Include="FirstLastPosition.cs" />
     <Compile Include="IPAddress.cs" />
     <Compile Include="CombinationIterator.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="LetterCombination.cs" />
     <Compile Include="LinkedListRemove.cs" />
     <Compile Include="MinStart.cs" />
+    <Compile Include="NumbersDisappeared.cs" />
     <Compile Include="RotateImage.cs" />
     <Compile Include="SingleElement.cs" />
     <Compile Include="Tools\ListNode.cs" />
