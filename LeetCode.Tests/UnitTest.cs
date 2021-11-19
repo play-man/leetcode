@@ -284,5 +284,16 @@ namespace LeetCode.Tests
             int[][] inputRotated = RotateImage.Rotate(input);
             Assert.True(inputRotated.Length == expected.Length && (Enumerable.Range(0, inputRotated.Length).All(i => Enumerable.SequenceEqual(inputRotated[i], expected[i]))));
         }
+
+        [Test]
+        [TestCase(1, 4, 2)]
+        [TestCase(3, 1, 1)]
+        [TestCase(4, 4, 0)]
+        [TestCase(4, 5, 1)]
+        [TestCase(0, 0, 0)]
+        public void HammingDistanceCheck(int x, int y, int expected)
+        {
+            Assert.AreEqual(HammingDist.HammingDistance(x, y), expected);
+        }
     }
 }
