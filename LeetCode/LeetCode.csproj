@@ -60,9 +60,11 @@
     <Compile Include="LinkedListRemove.cs" />
     <Compile Include="MaximumProbability.cs" />
     <Compile Include="MinStart.cs" />
+    <Compile Include="MultiplyStrings.cs" />
     <Compile Include="NumbersDisappeared.cs" />
     <Compile Include="RotateImage.cs" />
     <Compile Include="SingleElement.cs" />
+    <Compile Include="SingleNumberIII.cs" />
     <Compile Include="SortedToBST.cs" />
     <Compile Include="Tools\ListNode.cs" />
     <Compile Include="LongestPalindromeClass.cs" />
@@ -76,6 +78,7 @@
     <Compile Include="SwapNodes.cs" />
     <Compile Include="ThreeSum.cs" />
     <Compile Include="Tools\TreeNode.cs" />
+    <Compile Include="UniqueBST.cs" />
     <Compile Include="ValidSudoku.cs" />
     <Compile Include="WaterContainer.cs" />
     <Compile Include="WordSearch.cs" />

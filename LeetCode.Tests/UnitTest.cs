@@ -295,5 +295,16 @@ namespace LeetCode.Tests
         {
             Assert.AreEqual(HammingDist.HammingDistance(x, y), expected);
         }
+
+        [Test]
+        [TestCase(new int[] { 1, 2, 3, 3 }, new int[] { 1, 2 })]
+        [TestCase(new int[] { 1, 2, 1, 2, 3, 4 }, new int[] { 3, 4 })]
+        [TestCase(new int[] { 1, 2, 1, 3, 2, 5 }, new int[] { 3, 5 })]
+        [TestCase(new int[] { -1, 0 }, new int[] { -1, 0 })]
+        [TestCase(new int[] { 0, 1 }, new int[] { 0, 1 })]
+        public void SingleNumberIIICheck(int[] input, int[] expected)
+        {
+            Assert.True(Enumerable.SequenceEqual(LargestDivisibleSub.LargestDivisibleSubset(input), expected));
+        }
     }
 }
