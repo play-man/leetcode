@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Atoi.cs" />
+    <Compile Include="BalanceTree.cs" />
+    <Compile Include="BTInorderPostorder.cs" />
     <Compile Include="BSTIterator.cs" />
+    <Compile Include="BSTToList.cs" />
     <Compile Include="DailyTemperature.cs" />
     <Compile Include="Divisors.cs" />
     <Compile Include="Anagrams.cs" />
@@ -65,7 +68,7 @@
     <Compile Include="RotateImage.cs" />
     <Compile Include="SingleElement.cs" />
     <Compile Include="SingleNumberIII.cs" />
-    <Compile Include="SortedToBST.cs" />
+    <Compile Include="SortedListIntoBST.cs" />
     <Compile Include="Tools\ListNode.cs" />
     <Compile Include="LongestPalindromeClass.cs" />
     <Compile Include="MinHeight.cs" />

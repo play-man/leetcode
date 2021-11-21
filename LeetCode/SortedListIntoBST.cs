@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    internal class SortedToBST
+    internal static class SortedListIntoBST
     {
         /*Given the head of a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
 
@@ -16,7 +16,7 @@ namespace LeetCode
 
         The number of nodes in head is in the range [0, 2 * 10^4].
         -10^5 <= Node.val <= 10^5*/
-        public TreeNode SortedListToBST(ListNode head)
+        public static TreeNode SortedListToBST(ListNode head)
         {
             if (head == null) return null;
             if (head.next == null)
@@ -44,7 +44,7 @@ namespace LeetCode
             return treeHead;
         }
 
-        public ListNode ListMiddle(ListNode head)
+        public static ListNode ListMiddle(ListNode head)
         {
             ListNode current = head;
             ListNode current2x = head;
