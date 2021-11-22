@@ -49,6 +49,7 @@
     <Compile Include="BSTIterator.cs" />
     <Compile Include="BSTToList.cs" />
     <Compile Include="DailyTemperature.cs" />
+    <Compile Include="TreeDeleteNode.cs" />
     <Compile Include="Divisors.cs" />
     <Compile Include="Anagrams.cs" />
     <Compile Include="FirstLastPosition.cs" />
