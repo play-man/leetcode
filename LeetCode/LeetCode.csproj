@@ -93,6 +93,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\ValidateBinaryTree.js" />
+    <Content Include="JS\NextPermutation.js" />
     <Content Include="JS\MaximumSubarray.js" />
     <Content Include="JS\IntervalIntersection.js" />
   </ItemGroup>
