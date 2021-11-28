@@ -93,8 +93,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\AllPaths.js" />
     <Content Include="JS\GroupAnagrams.js" />
     <Content Include="JS\SearchInsertPosition.js" />
+    <Content Include="JS\ProductOfArray.js" />
+    <Content Include="JS\BinaryTreeLevel.js" />
     <Content Include="JS\ValidateBinaryTree.js" />
     <Content Include="JS\NextPermutation.js" />
     <Content Include="JS\MaximumSubarray.js" />
