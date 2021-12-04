@@ -306,5 +306,14 @@ namespace LeetCode.Tests
         {
             Assert.True(Enumerable.SequenceEqual(LargestDivisibleSub.LargestDivisibleSubset(input), expected));
         }
+
+        [Test]
+        [TestCase(new double[] { 3, 2, 1, 4 }, new double[] { 1, 2, 3, 4 })]
+        [TestCase(new double[] { 1, 2, 1, 2, 3, 4 }, new double[] { 1, 1, 2, 2, 3, 4 })]
+        public void MergeSortCheck(double[] input, double[] expected)
+        {
+            MergeSort.Sort(input);
+            Assert.True(Enumerable.SequenceEqual(input, expected));
+        }
     }
 }

@@ -50,6 +50,7 @@
     <Compile Include="BSTToList.cs" />
     <Compile Include="DailyTemperature.cs" />
     <Compile Include="LongestSubstring.cs" />
+    <Compile Include="MergeSort.cs" />
     <Compile Include="TreeDeleteNode.cs" />
     <Compile Include="Divisors.cs" />
     <Compile Include="Anagrams.cs" />
@@ -93,6 +94,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\Triangle.js" />
     <Content Include="JS\AllPaths.js" />
     <Content Include="JS\GroupAnagrams.js" />
     <Content Include="JS\FirstMissingPositive.js" />
@@ -102,6 +104,9 @@
     <Content Include="JS\BinaryTreeLevel.js" />
     <Content Include="JS\MaximalRectangle.js" />
     <Content Include="JS\HouseRobber.js" />
+    <Content Include="JS\MaximumProductSubarray.js" />
+    <Content Include="JS\OddEvenLinkedList.js" />
+    <Content Include="JS\StreamOfCharacters.js" />
     <Content Include="JS\ValidateBinaryTree.js" />
     <Content Include="JS\NextPermutation.js" />
     <Content Include="JS\MaximumSubarray.js" />
