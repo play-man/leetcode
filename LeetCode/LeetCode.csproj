@@ -95,6 +95,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JS\ConvertBinary.js" />
+    <Content Include="JS\Interleave.js" />
+    <Content Include="JS\JumpGameIII.js" />
     <Content Include="JS\MinimumCost.js" />
     <Content Include="JS\CoinChange.js" />
     <Content Include="JS\Triangle.js" />
