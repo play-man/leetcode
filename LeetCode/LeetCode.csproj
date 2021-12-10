@@ -94,9 +94,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\PredictTheWinner.js" />
+    <Content Include="JS\DominoTrominoTiling.js" />
     <Content Include="JS\ConvertBinary.js" />
     <Content Include="JS\Interleave.js" />
     <Content Include="JS\JumpGameIII.js" />
+    <Content Include="JS\MaximalSquare.js" />
     <Content Include="JS\MinimumCost.js" />
     <Content Include="JS\CoinChange.js" />
     <Content Include="JS\Triangle.js" />
