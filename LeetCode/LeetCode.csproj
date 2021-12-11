@@ -94,6 +94,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\DistinctSubsequences.js" />
+    <Content Include="JS\SimplifyPath.js" />
+    <Content Include="JS\NthMagicalNumber.js" />
     <Content Include="JS\PredictTheWinner.js" />
     <Content Include="JS\DominoTrominoTiling.js" />
     <Content Include="JS\ConvertBinary.js" />
