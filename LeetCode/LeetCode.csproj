@@ -94,6 +94,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\PartitionEqualSubsetSum.js" />
+    <Content Include="JS\PalindromePartitioning.js" />
+    <Content Include="JS\BurstBalloons.js" />
+    <Content Include="JS\EditDistance.js" />
     <Content Include="JS\DistinctSubsequences.js" />
     <Content Include="JS\SimplifyPath.js" />
     <Content Include="JS\NthMagicalNumber.js" />
