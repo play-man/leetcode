@@ -94,6 +94,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\NumberLongestIncreasingSubsequence.js" />
+    <Content Include="JS\LongestIncreasingSubsequence.js" />
+    <Content Include="JS\BalancedBinaryTree.js" />
+    <Content Include="JS\PerfectSquares.js" />
+    <Content Include="JS\ConsecutiveCharacters.js" />
     <Content Include="JS\PartitionEqualSubsetSum.js" />
     <Content Include="JS\PalindromePartitioning.js" />
     <Content Include="JS\BurstBalloons.js" />
