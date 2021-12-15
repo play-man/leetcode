@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Atoi.cs" />
+    <Compile Include="RangeSumBST.cs" />
     <Compile Include="BalanceTree.cs" />
     <Compile Include="BTInorderPostorder.cs" />
     <Compile Include="BSTIterator.cs" />
@@ -94,6 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\InsertionSortList.js" />
     <Content Include="JS\NumberLongestIncreasingSubsequence.js" />
     <Content Include="JS\LongestIncreasingSubsequence.js" />
     <Content Include="JS\BalancedBinaryTree.js" />
