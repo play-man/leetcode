@@ -49,7 +49,6 @@ namespace LeetCode
                     }
                 }
             }
-
             while (leaves.Count > 0)
                 result.Add(leaves.Dequeue());   
 
